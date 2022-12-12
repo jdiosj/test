@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Athul</copyright>
+    <lastBuildDate>Mon, 12 Dec 2022 10:54:50 +0800</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux操作系统——课堂笔记</title>
+      <link>http://localhost:1313/post/first-blog/</link>
+      <pubDate>Mon, 12 Dec 2022 10:54:50 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/first-blog/</guid>
+      <description>重定向和管道 重定向 执行一个shell命令行时通常会自动打开三个标准文件
+ 标准输入文件（stdin）代码为 0 ，使用 &amp;lt; 或 &amp;laquo; 标准输出文件（stdout）代码为 1 ，使用 &amp;gt; 或 &amp;raquo; 标准错误输出文件（stderr）代码为 2 ，使用 2&amp;gt; 或 2&amp;raquo;  输入重定向  输入重定向主要用于改变一个命令的输入源，指输入可以不来自标准输入（键盘），而来自一个指定的文件。 一般的命令格式为“命令&amp;lt;文件名”  重定向标准输出  &amp;ldquo;&amp;gt;&amp;rdquo; 将命令执行的结果输出到指定文件  [euler@euler ~]$ echo &amp;#34;hello world 1&amp;#34; &amp;gt; a.txt [euler@euler ~]$ cat a.txt hello world 1  &amp;ldquo;&amp;raquo;&amp;rdquo; 将命令执行的结果追加输出到指定文件  [euler@euler ~]$ echo &amp;#34;hello world 2&amp;#34; &amp;gt; a.txt [euler@euler ~]$ cat a.txt hello world 1 hello world 2 重定向标准错误 命令执行出错时一般会把错误信息打印到标准错误，而不是标准输出</description>
+    </item>
+    
+  </channel>
+</rss>
